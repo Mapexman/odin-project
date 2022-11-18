@@ -77,5 +77,37 @@ body {
   height: 100%;
 }
 
-/* colors */
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 1.125rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+}
+
+/* Content */
 

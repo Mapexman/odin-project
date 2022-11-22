@@ -8,7 +8,6 @@
 }
 
 /* Remove default margin */
-body,
 h1,
 h2,
 h3,
@@ -19,6 +18,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  padding: 0;
 }
 
 
@@ -74,7 +74,9 @@ select {
 
 html,
 body {
-  height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -111,3 +113,28 @@ nav a:hover {
 
 /* Content */
 
+.container {
+    max-width: 80rem;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+
+.hero h1 {
+    color: #F9FAF8;
+    font-size: 3rem;
+    font-weight: extra-bold;
+}
+
+.hero p {
+    text-size: 1.125rem;
+    color: #E5E7EB;
+}
+
+.hero img {
+    max-width: 20rem;
+}

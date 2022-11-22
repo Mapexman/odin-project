@@ -231,3 +231,12 @@ nav a:hover {
     border-color: #3882F6;
     background-color: #F9FAF8;
 }
+
+/* Footer */
+
+footer {
+    padding: 1rem 2rem;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+}

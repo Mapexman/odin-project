@@ -154,6 +154,7 @@ nav a:hover {
 
 .random-info h2 {
     text-align: center;
+    font-size: 2.25rem;
 }
 
 .random-flex {
@@ -175,4 +176,20 @@ nav a:hover {
     text-align: center;
     width: 8rem;
     text-size: 1.125rem;
+}
+
+.quote {
+    padding: 4rem 16rem;
+    background-color: #E5E7EB;
+}
+
+.quote p:first-of-type {
+    font-style: italic;
+    font-weight: light;
+    font-size: 2.25rem;
+}
+
+.quote p:last-of-type {
+    text-align: right;
+    font-weight: bold;
 }

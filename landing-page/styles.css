@@ -113,15 +113,13 @@ nav a:hover {
 
 /* Content */
 
-.container {
-    max-width: 80rem;
-}
-
 .hero {
     display: flex;
     background-color: #1F2937;
     justify-content: space-evenly;
     gap: 4rem;
+    width: 100%;
+    padding: 5rem;
 }
 
 .hero h1 {
@@ -137,4 +135,5 @@ nav a:hover {
 
 .hero img {
     max-width: 20rem;
+    object-fit: cover;
 }
